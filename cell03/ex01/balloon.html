@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Ballon</title>
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+            }
+            #ballon {
+                height: 200px;
+                width: 200px;
+                border-radius: 50%;
+                background-color: red;
+               /* transition: .2s width, .2s height; */
+            }
+        </style>
+    </head>
+    <body>
+        <div id="ballon" onclick="add_size()" onmouseleave="deduc_size()"></div>
+        <script>
+            function add_size() {
+                let elem = document.getElementById("ballon");
+                let width = ballon.clientWidth;
+                let height = ballon.clientHeight;
+                if (width >= 420 || height >= 420)
+                {
+                    ballon.style.width = 200 + "px";
+                    ballon.style.height = 200 + "px";
+                }
+                else if (width != 415 || height != 415)
+                {
+                    ballon.style.width = (width + 10) + "px";
+                    ballon.style.height = (height + 10) + "px";
+                }
+            }
+            
+            function deduc_size() {
+                let elem = document.getElementById("ballon");
+                let width = ballon.clientWidth;
+                let height = ballon.clientHeight;
+                if (width > 200 || height > 200)
+                {
+                    ballon.style.width = (width - 5) + "px";
+                    ballon.style.height = (height - 5) + "px";
+                }
+
+            }
+            function change_color() {
+                let elem = document.getElementById("ballon");
+                let color = ballon.
+            }
+        
+        </script>
+    </body>
+</html>

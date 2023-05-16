@@ -1,0 +1,33 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.photo {
+    height: 1100px;
+    background-image: url('https://www.numerama.com/wp-content/uploads/2019/05/hubble-univers-telescope-espace-astronomie.jpg');
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+#block_black {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px ;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+.photo_2 {
+    height: 900px;
+    background-image: url('https://img-4.linternaute.com/DbxDwxHzHUfOGOshz-ZuN0L0Rgs=/1500x/smart/951cd0308e6e4949938536a1f072cac2/ccmcms-linternaute/36640014.jpg');
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}

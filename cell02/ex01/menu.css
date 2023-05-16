@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(218, 188, 193);
+}
+
+h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+p {
+    border: white 1px solid;
+    border-radius: 10px;
+}
+form {
+    display: flex;
+    justify-content: space-around;
+    border: white;
+    border-radius: 10px;
+}
+
+select {
+    background-color: rgb(218, 188, 193);
+    color:white;
+    font-size: 30px;
+    border-radius: 10px;
+}
+option {
+    border: white 1px solid;
+    border-radius: 10px;
+}
